@@ -8,11 +8,13 @@
 		<link rel="stylesheet" href="css/nav.css" />
 		<link rel="stylesheet" href="css/products.css" />
 		<link rel="stylesheet" href="css/features.css" />
+		<link rel="stylesheet" href="css/hamburger.css" />
 		<link rel="stylesheet" href="css/ikony.css" />
 		<script src="js/index.js" defer></script>
 		<script src="js/products.js" defer></script>
 		<script src="js/features.js" defer></script>
 		<script src="js/productthirdmenu.js" defer></script>
+		<script src="js/hamburger.js" defer></script>
 		<script src="js/scripts.js" defer></script>
 		<script src="js/nav.js" defer></script>
 
@@ -36,7 +38,7 @@
 		></script>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-light">
+		<nav class="navbar navbar-expand-lg navbar-light navigation-desktop">
 			<div class="container">
 				<div>
 					<a class="fw-bold nav-color logo" href="#">EVERLASTING</a>
@@ -79,9 +81,6 @@
 									<div class="my-4">
 										<div
 											class="introduction introduction-desktop container row"
-											data-aos="zoom-in-up"
-											data-aos-delay="200"
-											data-aos-duration="1500"
 											id="about"
 										>
 											<div
@@ -847,10 +846,7 @@
 										<div class="container" id="new">
 											<div class="row konsultacje">
 												<div class="col-lg-9 text-beh">
-													<div
-														class="row"
-														data-aos="fade-right"
-													>
+													<div class="row">
 														<div
 															class="col-lg-5 txt-align"
 														>
@@ -1103,10 +1099,7 @@
 										<div class="container" id="orginals">
 											<div class="row konsultacje">
 												<div class="col-lg-9 text-beh">
-													<div
-														class="row"
-														data-aos="fade-right"
-													>
+													<div class="row">
 														<div
 															class="col-lg-5 txt-align"
 														>
@@ -1153,10 +1146,7 @@
 										<div class="container" id="collection">
 											<div class="row konsultacje">
 												<div class="col-lg-9 text-beh">
-													<div
-														class="row"
-														data-aos="fade-right"
-													>
+													<div class="row">
 														<div
 															class="col-lg-5 txt-align"
 														>
@@ -1209,10 +1199,7 @@
 									<div class="container" id="world">
 										<div class="row konsultacje">
 											<div class="col-lg-9 text-beh">
-												<div
-													class="row"
-													data-aos="fade-right"
-												>
+												<div class="row">
 													<div
 														class="col-lg-5 txt-align"
 													>
@@ -1263,10 +1250,7 @@
 								<div class="container" id="collaboration">
 									<div class="row konsultacje">
 										<div class="col-lg-9 text-beh">
-											<div
-												class="row"
-												data-aos="fade-right"
-											>
+											<div class="row">
 												<div class="col-lg-5 txt-align">
 													<img
 														class="productPhoto"
@@ -1348,13 +1332,34 @@
 				</div>
 			</div>
 		</nav>
+		<nav class="navigation-mobile">
+			<div class="hamburger">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<div class="menu-mobile">
+				<ul>
+					<h1 class="nav-color logo">EVERSLASTING</h1>
+					<li>
+						<a class="nav-link-ham" href="#">About</a>
+					</li>
+					<li>
+						<a class="nav-link-ham" href="#">Features</a>
+					</li>
+					<li><a class="nav-link-ham" href="#">Resources</a></li>
+					<li>
+						<a class="nav-link-ham" href="#">Products</a>
+					</li>
+					<li><a class="nav-link-ham" href="#">Helo</a></li>
+					<li><a class="nav-link-ham" href="#">Contact</a></li>
+					<li><a class="nav-link-ham" href="#">🤍</a></li>
+				</ul>
+			</div>
+		</nav>
 		<main></main>
 		<footer class="text-center py-5" id="contact"></footer>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 		<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<script>
-			AOS.init();
-		</script>
 	</body>
 </html>
