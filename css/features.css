@@ -1,0 +1,24 @@
+.text-feature {
+	font-size: 18px;
+	font-weight: bold;
+	color: grey;
+}
+
+.text-feature {
+	cursor: pointer;
+}
+
+.feature-border {
+	border-top: 1px solid grey;
+}
+
+#div-stories,
+#divStories,
+#divFeatures,
+#divFeatures2 {
+	display: none;
+}
+
+.text-center {
+	text-align: center !important;
+}

@@ -1,0 +1,54 @@
+.productPhoto {
+	height: 200px;
+	border-radius: 50px;
+	margin: 20px 0px 20px 0px;
+}
+
+.ofert {
+	font-size: 18px;
+	color: gray;
+	font-weight: bold;
+}
+.ofert:hover {
+	cursor: pointer;
+}
+.marginTextDiv {
+	margin-left: 0px;
+}
+
+.textSize {
+	font-size: 20px;
+}
+
+#new,
+#collaboration,
+#world,
+#orginals,
+#collection,
+#sellers,
+#stories {
+	display: none;
+}
+
+.dropdownMulti {
+	color: #555;
+}
+
+.dropdownMulti:hover {
+	text-decoration: none;
+	color: #555;
+}
+
+.dropdownPadding {
+	padding: 10px 0px 10px 14px;
+	border-top: none;
+}
+
+.dropdownPadding:hover {
+	background-color: #f5f6f7;
+}
+
+.textSize,
+.text-center {
+	cursor: pointer !important;
+}

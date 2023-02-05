@@ -1,0 +1,42 @@
+.icon {
+	width: 25px;
+	height: 25px;
+}
+.ig {
+	width: 35px;
+	height: 35px;
+	background: #f09433;
+	border-radius: 50%;
+	background: -moz-linear-gradient(
+		45deg,
+		#f09433 0%,
+		#e6683c 25%,
+		#dc2743 50%,
+		#cc2366 75%,
+		#bc1888 100%
+	);
+	background: -webkit-linear-gradient(
+		45deg,
+		#f09433 0%,
+		#e6683c 25%,
+		#dc2743 50%,
+		#cc2366 75%,
+		#bc1888 100%
+	);
+	background: linear-gradient(
+		45deg,
+		#f09433 0%,
+		#e6683c 25%,
+		#dc2743 50%,
+		#cc2366 75%,
+		#bc1888 100%
+	);
+}
+.instagram {
+	color: white;
+	margin: 5px 5px;
+}
+
+.ig:hover {
+	opacity: 0.7;
+}
